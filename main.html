@@ -6,10 +6,79 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="styles.css">
+	<style>
+		 table {
+            width: 100%;
+            border-collapse: separate;
+            border-spacing: 0;
+			border-top-left-radius: 10px;
+		    border-top-right-radius: 10px;
+		    border-bottom-left-radius: 10px;
+		    border-bottom-right-radius: 10px;
+        }
+        th, td {
+            padding: 8px;
+            text-align: left;
+            border-bottom: 1px solid #ddd; /* Horizontal line only */
+        }
+        th {
+            background-color: #10589c;
+			color:white;
+        }
+       .even
+		{
+			 background-color: lightgray;
+		}
+	</style>
 </head>
 <body>
     <!-- add table here -->
-
-        
+	<table>
+		<thead>
+			<tr>
+			<th>NAME</th>
+			<th>KILLS</th>
+			<th>SAVED</th>
+			<th>DEATHS</th>
+			<th>REVIVES</th>
+			<th>WIN</th>
+		   </tr>
+		</thead>
+		
+		<tbody>
+		<tr class="odd">
+			<td>Hackerman</td>
+			<td>23</td>
+			<td>20</td>
+			<td>1</td>
+			<td>13</td>
+			<td>132</td>
+		</tr>
+		<tr class="even">
+			<td>Cool Doggo</td>
+			<td>17</td>
+			<td>12</td>
+			<td>5</td>
+			<td>12</td>
+			<td>120</td>
+		</tr>
+		<tr class="odd">
+			<td>Andrews</td>
+			<td>14</td>
+			<td>10</td>
+			<td>10</td>
+			<td>9</td>
+			<td>80</td>
+		</tr>
+		<tr class="even">
+			<td>Strawberry</td>
+			<td>4</td>
+			<td>2</td>
+			<td>19</td>
+			<td>3</td>
+			<td>30</td>
+		</tr>
+		</tbody>
+	</table>
 </body>
 </html>
